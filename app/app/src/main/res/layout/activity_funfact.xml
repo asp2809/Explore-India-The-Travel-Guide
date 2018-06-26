@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:background="@drawable/indiag"
+    android:backgroundTint="#bF000000"
+    android:backgroundTintMode="src_over"
+    android:id="@+id/listView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlCompat">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Every Delhite is ever ready to help you out with directions. They will direct you even when they do not know what you are talking about. So check, crosscheck. And check again."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Delhi is one of the 'greenest' cities in the world with a green cover of almost 20%."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Traffic in Delhi is like traffic in London.  Drivers sit on the right side of the car."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Delhi has an International Toilet museum."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Khari Baoli is the Asia's largest wholesale spice market. A must visit for the once-in-a-lifetime overdose of a spice cocktail high."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u2022 Qutub Minar in Delhi is the world's tallest brick minaret."
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</ScrollView>

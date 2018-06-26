@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#f4e1d2">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">\
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center|bottom"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:background="@drawable/tourist"
+                android:textSize="30sp"
+                android:backgroundTint="#60000000"
+                android:backgroundTintMode="src_over"
+                android:id="@+id/touristplaces">
+            </ImageButton>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/touristplaces"
+                android:text="Places to Visit"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/hotel"
+                android:id="@+id/hotandres"
+                android:gravity="center|bottom"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#60000000"
+                android:backgroundTintMode="src_over"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/hotandres"
+                android:text="Hotels"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/cuisines"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/cuisines"
+                android:gravity="center|bottom"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:backgroundTint="#60000000"
+                android:backgroundTintMode="src_over"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cuisines"
+                android:text="Cuisines"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/funfacts"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/funfacts"
+                android:gravity="center|bottom"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#60000000"
+                android:backgroundTintMode="src_over"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/funfacts"
+                android:text="Fun Facts"
+                android:textSize="20sp"
+                android:padding="8dp"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
